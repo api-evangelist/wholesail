@@ -1,0 +1,40 @@
+# Wholesail
+
+> Wholesail is an all-in-one accounts receivable and B2B payments platform for
+> food & beverage wholesalers, distributors, and service vendors. It helps
+> vendors manage credit risk, automate collections, run customer onboarding,
+> accept ACH and card payments, and drive autopay — connected to the vendor's
+> ERP/accounting system. Wholesail is a fintech company backed by Foundry Group.
+> As of this writing Wholesail publishes no public developer API; it integrates
+> with ERP systems using their native API protocols, file exchange, and RPA.
+
+## Company
+- [Website](https://www.paywholesail.com): Wholesail marketing site and product overview
+- [About / Company](https://www.paywholesail.com/company/): Company and team
+- [Careers](https://www.paywholesail.com/company/join/): Open roles
+- [Blog](https://www.paywholesail.com/blog/): Product and industry writing
+- [Contact / Schedule a Demo](https://www.paywholesail.com/contact/): Sales and demo requests
+- [Log In](https://app.paywholesail.com): Wholesail application sign-in
+
+## Product
+- [Solutions: Onboarding](https://www.paywholesail.com/solutions/onboarding/)
+- [Solutions: Payment Portal](https://www.paywholesail.com/solutions/payment-portal/)
+- [Solutions: Autopay](https://www.paywholesail.com/solutions/autopay/)
+- [Solutions: Collections](https://www.paywholesail.com/solutions/collections/)
+- [Solutions: Fee Management](https://www.paywholesail.com/solutions/fee-management/)
+- [Solutions: Lighthouse (credit insight)](https://www.paywholesail.com/solutions/lighthouse/)
+- [Solutions: Reporting](https://www.paywholesail.com/solutions/reporting/)
+- [Solutions: Sales](https://www.paywholesail.com/solutions/sales/)
+- [Solutions: Support](https://www.paywholesail.com/solutions/support/)
+
+## Integrations
+- [Integrations](https://www.paywholesail.com/integrations/): Pre-built ERP/accounting connectors (QuickBooks, NetSuite, Sage 50, Xero, NetYield, Entree, Seasoft, Microsoft Dynamics 365, FlexiBake, Apprise, Produce Pro, CounterPoint, Infor, and custom ERPs) via native API, file exchange, or RPA
+- [Partners](https://www.paywholesail.com/partners/): Partner program
+- Payment partners: Stripe, Plaid, Modern Treasury, JP Morgan, SVB
+
+## Trust & Security
+- [Security](https://www.paywholesail.com/security/): SOC 2 certified, PCI-DSS compliant, NACHA compliant; encryption at rest and in transit; hosted on Google Cloud Platform
+- [Privacy Policy](https://www.paywholesail.com/privacy/)
+
+## Support
+- [Support / Help Center](https://wholesail.zendesk.com): Zendesk help center

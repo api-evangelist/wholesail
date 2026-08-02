@@ -1,0 +1,44 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.paywholesail.com/security/
+url: https://www.paywholesail.com/security/
+# Wholesail's own certifications are SOC 2 and PCI-DSS; ISO 27001 is inherited
+# from the Google Cloud Platform infrastructure Wholesail is hosted on.
+certifications:
+- SOC 2
+- PCI DSS
+inherited_certifications:
+- provider: Google Cloud Platform
+  certifications: [SOC 1, SOC 2, SOC 3, PCI DSS, ISO 27001]
+compliance_programs:
+- id: soc2
+  name: SOC 2
+  status: certified
+  scope: independent audits verifying adherence to security protocols
+- id: pci-dss
+  name: PCI DSS
+  status: compliant
+  scope: card data protection; Stripe processes/stores card details, Wholesail never sees card numbers
+- id: nacha
+  name: NACHA
+  status: compliant
+  scope: ACH money transmission (ACH processed by JP Morgan and SVB)
+security_practices:
+- mandatory security training + MFA for all employees
+- device compliance monitoring
+- pre-employment background checks
+- encryption at rest and TLS/HTTPS in transit
+- minimal data access + strict permission controls
+- automated logging and monitoring of payment activity
+- continuous vulnerability scanning
+funds_protection:
+- in-transit funds held in dedicated per-merchant Stripe accounts
+- pass-through FDIC insurance up to $250,000 per customer on ACH funds
+partners: [Stripe, Plaid, Modern Treasury, JP Morgan, SVB]
+evidence:
+- source: https://www.paywholesail.com/security/
+  keywords:
+  - soc 2
+  - pci-dss
+  - nacha

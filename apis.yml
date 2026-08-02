@@ -1,9 +1,26 @@
 aid: wholesail
 name: Wholesail
-description: 'Wholesail is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Wholesail is an all-in-one accounts receivable and B2B payments platform for food & beverage
+  wholesalers, distributors, and service vendors. It helps vendors onboard customers, manage credit risk,
+  automate collections, accept ACH and card payments, and drive autopay — all connected to the vendor''s
+  ERP or accounting system. Wholesail is a fintech company backed by Foundry Group. As of enrichment it
+  publishes no public developer API; it integrates with ERP systems using their native API protocols,
+  scheduled file exchange, and robotic process automation, and it partners with Stripe, Plaid, Modern
+  Treasury, JP Morgan, and SVB for payment processing. This profile is maintained in the API Evangelist
+  network.'
 url: https://raw.githubusercontent.com/api-evangelist/wholesail/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.paywholesail.com/static/og-facebook-190507.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Payments
+- Accounts Receivable
+- B2B
+- ACH
+- Wholesale
+- Collections
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.paywholesail.com
+- type: Blog
+  url: https://www.paywholesail.com/blog/
+- type: Support
+  url: https://wholesail.zendesk.com
+- type: Login
+  url: https://app.paywholesail.com
+- type: PrivacyPolicy
+  url: https://www.paywholesail.com/privacy/
+- type: Integrations
+  url: https://www.paywholesail.com/integrations/
+- type: TrustCenter
+  url: security/wholesail-trust-center.yml
+- type: Compliance
+  url: https://www.paywholesail.com/security/
+- type: DomainSecurity
+  url: security/wholesail-domain-security.yml
+- type: LLMsTxt
+  url: llms/wholesail-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
