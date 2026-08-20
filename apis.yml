@@ -38,6 +38,15 @@ tags:
 - B2B
 - ACH
 - Wholesale
+- Collection
+tags_raw:
+- Company
+- Fintech
+- Payments
+- Accounts Receivable
+- B2B
+- ACH
+- Wholesale
 - Collections
 apis: []
 maintainers:
